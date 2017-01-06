@@ -45,7 +45,6 @@ def main():
         file.close()
 
         webbrowser.open_new_tab('signature.html')
-        time.sleep(5)
-        os.remove('signature.html')
+    os.remove('signature.html')
 if __name__ == '__main__':
     main()
